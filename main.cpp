@@ -13,15 +13,14 @@ using namespace std;
 
 cv::Mat otsu(cv::Mat temp, int method);
 cv::Mat SPC(cv::Mat temp, float para1);
-int _tmain(int argc, char** argv)
+int main(int argc, const char *argv[])
 {
 	Mat input,output,colorimg;
 	if(argc < 3){  //command exampl: main.exe, filename, method, parameter1, parameter2,..... 
 		cout<<"command invalid";
 		return -1;
 	}
-	string filename=argv[1];
-	filename=filename+".png";
+	std::string filename=argv[1];
 	int Method=stoi(string(argv[2])); //convert string to int
 	float para1=0,para2=0;
 	if(argc>3)
