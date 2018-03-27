@@ -8,8 +8,8 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Download OpenCV on https://opencv.org/releases.html<br />
 * Setting environment variable:PC->Properties->Advanced system setting->Environment variables->Path<br />
 ->Edit->New->OpenCV bin directory<br />
-* Open new projects: Open VS->File->New project->Visual C++->Win32 Console application->Finish<br />
+* Open new projects: Open Visual studio->File->New project->Visual C++->Win32 Console application->Finish<br />
 * Choose configuration: Configuration manager->Active solution platform->New->Choose x86 or x64 platform <br />
 * Set include path: Project->Properties->C/C++->Additional include directories->Opencv include directory<br />
 * Add library directories:Project->Properties->linker->General->Additional library directories->Opencv lib directory<br />
-* Add library dependencyon VS:Project->Properties->linker->Input->Additional dependecies->opencv_world300d.lib<br />
+* Add library dependency:Project->Properties->linker->Input->Additional dependecies->opencv_world300d.lib<br />
