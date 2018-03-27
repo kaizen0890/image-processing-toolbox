@@ -1,5 +1,6 @@
 # image-processing-toolbox
-Toolbox for consecutive image process using OpenCV3.0 library on Visual studio 2012 platform
+This is toolbox for consecutive image process using OpenCV3.0 library on Visual studio 2012 platform. This program provides fast image processing algortihm development with multiple image process operation using OpenCV library.
+
 
 ## How can you get started
 https://docs.opencv.org/2.4/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html<br />
@@ -13,3 +14,21 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Set include path: Project->Properties->C/C++->Additional include directories->Opencv include directory<br />
 * Add library directories:Project->Properties->linker->General->Additional library directories->Opencv lib directory<br />
 * Add library dependency:Project->Properties->linker->Input->Additional dependecies->opencv_world300d.lib<br />
+* Download msvcp120d.dll and msvcr120d.dll to your project folder(optional) 
+* Copy all file into your project folder<br />
+* Build project and have fun!
+
+
+## How does this work
+
+## Which function inside this toolbox(Method)
+* 1.Show gray image
+* 2.Show color image
+* 3.Otsu's thresholding
+* 4.Valley emphasis(VE) Otsu's thresholding
+* 5.weighted object variance(WOV) Otsu's thresholding
+* 6.Range constraint(RC) Otsu's thresholding
+* 7.Binary thresholding
+* 8.Statistical process control(SPC) thresholding
+* 9.Sobel filter
+
