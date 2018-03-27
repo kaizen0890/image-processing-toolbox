@@ -6,9 +6,10 @@ https://docs.opencv.org/2.4/doc/tutorials/introduction/windows_visual_studio_Ope
 https://www.youtube.com/watch?v=l4372qtZ4dc<br />
 Above are tutorial webisites which tell you how to install OpenCV library on visual studio platform, following are steps:<br />
 * Download OpenCV on https://opencv.org/releases.html<br />
-* Setting environment variable:PC->Properties->Advanced system setting->Environment variables->Path->Edit->New->OpenCV bin directory<br />
+* Setting environment variable:PC->Properties->Advanced system setting->Environment variables->Path<br />
+->Edit->New->OpenCV bin directory<br />
 * Open new projects: Open VS->File->New project->Visual C++->Win32 Console application->Finish<br />
-* Choose configuration: Configuration manager->Active solution platform->New->Choose x86 or x64 platform base on your computer system<br />
+* Choose configuration: Configuration manager->Active solution platform->New->Choose x86 or x64 platform <br />
 * Set include path: Project->Properties->C/C++->Additional include directories->Opencv include directory<br />
 * Add library directories:Project->Properties->linker->General->Additional library directories->Opencv lib directory<br />
-* Add library dependencyon VS:Project->Properties->linker->Input->Additional dependecies->Enter opencv_world300d.lib<br />
+* Add library dependencyon VS:Project->Properties->linker->Input->Additional dependecies->opencv_world300d.lib<br />
