@@ -48,8 +48,8 @@ This program is intended to people who need to test consecutive image processing
 ## Functions description
 1. Show gray image <cmd:main.exe image_name 1> <br />
 2. Show color image <cmd:main.exe image_name 2> <br />  
-3. Otsu's thresholding <cmd:main.exe image_name 3> <br />  
-Description: Automatically find optimal thresholding value to binarize an image. <br />  
+3. Otsu's thresholding <cmd:main.exe image_name 3>  
+Description: Automatically find optimal thresholding value to binarize an image.  
 Reference: N. Otsu, “A tlreshold selection method from gray-Level histograms,”Automatica, vol. 11, no. 1, pp. 23–27, 1975.<br /> 
 4. 
 
