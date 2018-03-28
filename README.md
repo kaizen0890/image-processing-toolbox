@@ -35,14 +35,21 @@ This program is intended to people who need to test consecutive image processing
 <p align="center"><img src="/image/otsu.png" height="30%" width="30%"></p><br />
 
 ## Which function inside this toolbox(Method)
-* 1.Show gray image<br />
-* 2.Show color image<br />
-* 3.Otsu's thresholding<br />
-* 4.Valley emphasis(VE) Otsu's thresholding<br />
-* 5.Weighted object variance(WOV) Otsu's thresholding<br />
-* 6.Range constraint(RC) Otsu's thresholding<br />
-* 7.Binary thresholding<br />
-* 8.Statistical process control(SPC) thresholding<br />
-* 9.Sobel filter<br />
+1. Show gray image<br />
+2. Show color image<br />
+3. Otsu's thresholding<br />
+4. Valley emphasis(VE) Otsu's thresholding<br />
+5. Weighted object variance(WOV) Otsu's thresholding<br />
+6. Range constraint(RC) Otsu's thresholding<br />
+7. Binary thresholding<br />
+8. Statistical process control(SPC) thresholding<br />
+9. Sobel filter<br />
 
 ## Functions description
+1. Show gray image <cmd:main.exe image_name 1> <br />
+2. Show color image <cmd:main.exe image_name 2> <br />  
+3. Otsu's thresholding <cmd:main.exe image_name 3> <br />  
+   Description: Automatically find optimal thresholding value to binarize an image. <br />  
+   Reference: N. Otsu, “A tlreshold selection method from gray-Level histograms,”Automatica, vol. 11, no. 1, pp. 23–27, 1975.<br /> 
+4. 
+
