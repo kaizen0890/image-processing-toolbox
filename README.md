@@ -61,5 +61,8 @@ This program is intended to people who need to test consecutive image processing
 * Description: Automatically find optimal thresholding value to binarize an image.  
 * Reference: *X. Xu, S. Xu, L. Jin, and E. Song, “Characteristic analysis of Otsu threshold and its applications,” Pattern Recognition Letters, vol. 32, no. 7, pp. 956–961, 2011.*<br />
 7. Binary thresholding <cmd:main.exe image_name 7 threshold_value> <br />  
+* Description: Binarize an image with indicated threshold_value.  
 8. Statistical process control(SPC) thresholding <cmd:main.exe image_name 8 control_factor> <br />  
-9. Sobel filter <cmd:main.exe image_name 9><br />
+* Description: Binarize an image with a range of gray level away from mean gray level, the range is controlled by input control_factor, control_factor usually is between 1 to 5.
+9. Sobel filter <cmd:main.exe image_name 9 filter_size><br />
+* Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size
