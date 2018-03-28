@@ -44,6 +44,17 @@ This program is intended to people who need to test consecutive image processing
 7. Binary thresholding<br />
 8. Statistical process control(SPC) thresholding<br />
 9. Sobel filter<br />
+10. Laplacian filter<br />
+11. Canny filter<br />
+12. Gabor filter<br />
+13. Median filter<br />
+14. Gaussian blur filter<br />
+15. Local contrast enhancement<br />
+16. Local binary patterns<br />
+17. Difference of Gaussian<br />
+18. Discrete Fourier transform<br />
+19. Histogram equalization<br />
+20. Image resize<br />
 
 ## Functions description
 **1. Show gray image <cmd:main.exe image_name 1>**<br />
