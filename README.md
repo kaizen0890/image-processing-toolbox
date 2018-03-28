@@ -31,13 +31,13 @@ This program is intended to people who need to test consecutive image processing
 * (Apply Otsu's thresholding)In cmd.exe: main.exe output.png 3
 <p align="center"><img src="/image/otsu.png" height="30%" width="30%"></p><br />
 ## Which function inside this toolbox(Method)
-* 1.Show gray image
-* 2.Show color image
-* 3.Otsu's thresholding
-* 4.Valley emphasis(VE) Otsu's thresholding
-* 5.Weighted object variance(WOV) Otsu's thresholding
-* 6.Range constraint(RC) Otsu's thresholding
-* 7.Binary thresholding
-* 8.Statistical process control(SPC) thresholding
-* 9.Sobel filter
+* 1.Show gray image<br />
+* 2.Show color image<br />
+* 3.Otsu's thresholding<br />
+* 4.Valley emphasis(VE) Otsu's thresholding<br />
+* 5.Weighted object variance(WOV) Otsu's thresholding<br />
+* 6.Range constraint(RC) Otsu's thresholding<br />
+* 7.Binary thresholding<br />
+* 8.Statistical process control(SPC) thresholding<br />
+* 9.Sobel filter<br />
 
