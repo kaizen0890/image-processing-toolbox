@@ -18,7 +18,7 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Copy all file into your project folder<br />
 * Build project and find main.exe directory, put lena.png file into that folder <br />
 * Open cmd.exe and go to your main.exe directory <br />
-* Tpye main.exe lena.png 1 <br />
+* Enter command "main.exe lena.png 1" <br />
 * Have fun! <br />
 
 
