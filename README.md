@@ -84,4 +84,28 @@ This program is intended to people who need to test consecutive image processing
 * Description: Binarize an image with a range of gray level away from mean gray level, the range is controlled by input control_factor, control_factor usually is between 1 to 5.
 
 **9. Sobel filter <cmd:main.exe image_name 9 filter_size>**<br />
-* Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size
+* Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
+
+**10. Laplacian filter <cmd:main.exe image_name 10 filter_size>**<br />
+* Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
+
+**11. Canny filter <cmd:main.exe image_name 11 filter_size lower_threshold upper_threshold>**<br />
+* Description: Find edge by first applying sobel filter, then threshold with lower_threshold and upper threshold, finally, non maximum suppression is applied to thin the edge. The size of sobel filter is set by input filter_size.
+
+**12. Gabor filter <cmd:main.exe image_name 12 filter_size sigma theta lambd gamma psi>**<br />
+
+**13. Median filter <cmd:main.exe image_name 13 filter_size>**<br />
+
+**14. Gaussian blur filter <cmd:main.exe image_name 14 filter_size sigma>**<br />
+
+**15. Local contrast enhancement <cmd:main.exe image_name 15 filter_size>**<br />
+
+**16. Local binary patterns <cmd:main.exe image_name 16>**<br />
+
+**17. Difference of Gaussian <cmd:main.exe image_name 17 filter_size sigma1 sigma2>**<br />
+
+**18. Discrete Fourier transform <cmd:main.exe image_name 18>**<br />
+
+**19. Histogram equalization <cmd:main.exe image_name 19>**<br />
+
+**20. Image resize <cmd:main.exe image_name 20 new_width new_height>**<br />
