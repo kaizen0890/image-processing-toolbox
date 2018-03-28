@@ -57,55 +57,55 @@ This program is intended to people who need to test consecutive image processing
 20. Image resize<br />
 
 ## Functions description
-**1. Show gray image <cmd:main.exe image_name 1>**<br />
+**1. Show gray image <main.exe image_name 1>**<br />
 
-**2. Show color image <cmd:main.exe image_name 2>** <br />  
+**2. Show color image <main.exe image_name 2>** <br />  
 
-**3. Otsu's thresholding <cmd:main.exe image_name 3>**  
+**3. Otsu's thresholding <main.exe image_name 3>**  
 * Description: Automatically find optimal thresholding value to binarize an image.  
 * Reference: *N. Otsu, “A tlreshold selection method from gray-Level histograms,”Automatica, vol. 11, no. 1, pp. 23–27, 1975.*<br /> 
 
-**4. Valley emphasis(VE) Otsu's thresholding <cmd:main.exe image_name 4>**
+**4. Valley emphasis(VE) Otsu's thresholding <main.exe image_name 4>**
 * Description: Automatically find optimal thresholding value to binarize an image.  
 * Reference: *H.-F. Ng, “Automatic thresholding for defect detection,” Pattern recognition letters, vol. 27, no. 14, pp. 1644–1649, 2006.*<br /> 
 
-**5. Weighted object variance(WOV) Otsu's thresholding <cmd:main.exe image_name 5>**  
+**5. Weighted object variance(WOV) Otsu's thresholding <main.exe image_name 5>**  
 * Description: Automatically find optimal thresholding value to binarize an image.  
 * Reference: *X.-C. Yuan, L.-S. Wu, and Q. Peng, “An improved Otsu method using the weighted object variance for defect detection,” Applied Surface Science, vol. 349, pp. 472–484, 2015.*<br />
 
-**6. Range constraint(RC) Otsu's thresholding <cmd:main.exe image_name 6>**  
+**6. Range constraint(RC) Otsu's thresholding <main.exe image_name 6>**  
 * Description: Automatically find optimal thresholding value to binarize an image.  
 * Reference: *X. Xu, S. Xu, L. Jin, and E. Song, “Characteristic analysis of Otsu threshold and its applications,” Pattern Recognition Letters, vol. 32, no. 7, pp. 956–961, 2011.*<br />
 
-**7. Binary thresholding <cmd:main.exe image_name 7 threshold_value>** <br />  
+**7. Binary thresholding <main.exe image_name 7 threshold_value>** <br />  
 * Description: Binarize an image with indicated threshold_value.  
 
-**8. Statistical process control(SPC) thresholding <cmd:main.exe image_name 8 control_factor>** <br />  
+**8. Statistical process control(SPC) thresholding <main.exe image_name 8 control_factor>** <br />  
 * Description: Binarize an image with a range of gray level away from mean gray level, the range is controlled by input control_factor, control_factor usually is between 1 to 5.
 
-**9. Sobel filter <cmd:main.exe image_name 9 filter_size>**<br />
+**9. Sobel filter <main.exe image_name 9 filter_size>**<br />
 * Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
 
-**10. Laplacian filter <cmd:main.exe image_name 10 filter_size>**<br />
+**10. Laplacian filter <main.exe image_name 10 filter_size>**<br />
 * Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
 
-**11. Canny filter <cmd:main.exe image_name 11 filter_size lower_threshold upper_threshold>**<br />
+**11. Canny filter <main.exe image_name 11 filter_size lower_threshold upper_threshold>**<br />
 * Description: Find edge by first applying sobel filter, then threshold with lower_threshold and upper threshold, finally, non maximum suppression is applied to thin the edge. The size of sobel filter is set by input filter_size.
 
-**12. Gabor filter <cmd:main.exe image_name 12 filter_size sigma theta lambd gamma psi>**<br />
+**12. Gabor filter <main.exe image_name 12 filter_size sigma theta lambd gamma psi>**<br />
 
-**13. Median filter <cmd:main.exe image_name 13 filter_size>**<br />
+**13. Median filter <main.exe image_name 13 filter_size>**<br />
 
-**14. Gaussian blur filter <cmd:main.exe image_name 14 filter_size sigma>**<br />
+**14. Gaussian blur filter <main.exe image_name 14 filter_size sigma>**<br />
 
-**15. Local contrast enhancement <cmd:main.exe image_name 15 filter_size>**<br />
+**15. Local contrast enhancement <main.exe image_name 15 filter_size>**<br />
 
-**16. Local binary patterns <cmd:main.exe image_name 16>**<br />
+**16. Local binary patterns <main.exe image_name 16>**<br />
 
-**17. Difference of Gaussian <cmd:main.exe image_name 17 filter_size sigma1 sigma2>**<br />
+**17. Difference of Gaussian <main.exe image_name 17 filter_size sigma1 sigma2>**<br />
 
-**18. Discrete Fourier transform <cmd:main.exe image_name 18>**<br />
+**18. Discrete Fourier transform <main.exe image_name 18>**<br />
 
-**19. Histogram equalization <cmd:main.exe image_name 19>**<br />
+**19. Histogram equalization <main.exe image_name 19>**<br />
 
-**20. Image resize <cmd:main.exe image_name 20 new_width new_height>**<br />
+**20. Image resize <main.exe image_name 20 new_width new_height>**<br />
