@@ -24,7 +24,8 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 
 ## How does this work
 This program is intended to people who need to test consecutive image processing. After each command, there will be a file output.png generated in your main.exe directory. For example, you can do input image->Otsu's thresholding->Sobel filter, which is a well known method for edge detection. Following are steps:
-
+* In cmd.exe: main.exe lena.png 2
+<p align="center"><img src="/image/lena.png" height="60%" width="60%"></p><br />
 ## Which function inside this toolbox(Method)
 * 1.Show gray image
 * 2.Show color image
