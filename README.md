@@ -17,19 +17,20 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Download msvcp120d.dll and msvcr120d.dll to your project folder(optional) <br />
 * Copy all file into your project folder<br />
 * Build project and find main.exe directory, put lena.png file into that folder <br />
-* Open cmd.exe and go to your main.exe directory <br />
+* Open cmd.exe and go to your debug directory where main.exe was generated <br />
 * Enter command "main.exe lena.png 1" <br />
 * Have fun! <br />
 
 
 ## How does this work
+This program is intended to people who need to test consecutive image processing. After each command, there will be a file output.png generated in your main.exe directory. For example, you can do input image->Otsu's thresholding->Sobel filter, which is a well known method for edge detection. Following are steps:
 
 ## Which function inside this toolbox(Method)
 * 1.Show gray image
 * 2.Show color image
 * 3.Otsu's thresholding
 * 4.Valley emphasis(VE) Otsu's thresholding
-* 5.weighted object variance(WOV) Otsu's thresholding
+* 5.Weighted object variance(WOV) Otsu's thresholding
 * 6.Range constraint(RC) Otsu's thresholding
 * 7.Binary thresholding
 * 8.Statistical process control(SPC) thresholding
