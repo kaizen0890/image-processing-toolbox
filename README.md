@@ -30,6 +30,7 @@ This program is intended to people who need to test consecutive image processing
 <p align="center"><img src="/image/sobel.png" height="30%" width="30%"></p><br />
 * (Apply Otsu's thresholding)In cmd.exe: main.exe output.png 3
 <p align="center"><img src="/image/otsu.png" height="30%" width="30%"></p><br />
+
 ## Which function inside this toolbox(Method)
 * 1.Show gray image<br />
 * 2.Show color image<br />
