@@ -51,5 +51,15 @@ This program is intended to people who need to test consecutive image processing
 3. Otsu's thresholding <cmd:main.exe image_name 3>  
 * Description: Automatically find optimal thresholding value to binarize an image.  
 * Reference: *N. Otsu, “A tlreshold selection method from gray-Level histograms,”Automatica, vol. 11, no. 1, pp. 23–27, 1975.*<br /> 
-4. Otsu's thresholding <cmd:main.exe image_name 3>  
-
+4. Valley emphasis(VE) Otsu's thresholding <cmd:main.exe image_name 4>  
+* Description: Automatically find optimal thresholding value to binarize an image.  
+* Reference: *H.-F. Ng, “Automatic thresholding for defect detection,” Pattern recognition letters, vol. 27, no. 14, pp. 1644–1649, 2006.*<br /> 
+5. Weighted object variance(WOV) Otsu's thresholding <cmd:main.exe image_name 5>  
+* Description: Automatically find optimal thresholding value to binarize an image.  
+* Reference: *X.-C. Yuan, L.-S. Wu, and Q. Peng, “An improved Otsu method using the weighted object variance for defect detection,” Applied Surface Science, vol. 349, pp. 472–484, 2015.*<br />
+6. Range constraint(RC) Otsu's thresholding <cmd:main.exe image_name 6>  
+* Description: Automatically find optimal thresholding value to binarize an image.  
+* Reference: *X. Xu, S. Xu, L. Jin, and E. Song, “Characteristic analysis of Otsu threshold and its applications,” Pattern Recognition Letters, vol. 32, no. 7, pp. 956–961, 2011.*<br />
+7. Binary thresholding <cmd:main.exe image_name 7 threshold_value> <br />  
+8. Statistical process control(SPC) thresholding <cmd:main.exe image_name 8 control_factor> <br />  
+9. Sobel filter <cmd:main.exe image_name 9><br />
