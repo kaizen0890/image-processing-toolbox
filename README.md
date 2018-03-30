@@ -87,29 +87,45 @@ This program is intended to people who need to test consecutive image processing
 * Reference: *D.-M. Tsai and C.-Y. Hsieh, “Automated surface inspection for directional textures,” Image and Vision computing, vol. 18, no. 1, pp. 49–62, 1999.*<br />  
 
 **9. Sobel filter <main.exe image_name 9 filter_size>**<br />
-* Description: Calculate approximations of the 1^st derivatives of input image, the filter size is set by input filter_size.
+* Description: Calculate approximations of the first derivatives of input image, the filter size is set by input value "filter_size".
 * Reference: https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html
 
 **10. Laplacian filter <main.exe image_name 10 filter_size>**<br />
-* Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
+* Description: Calculate second approximations of the derivatives of input image, the filter size is set by input value "filter_size".
 
 **11. Canny filter <main.exe image_name 11 filter_size lower_threshold upper_threshold>**<br />
-* Description: Find edge by first applying sobel filter, then threshold with lower_threshold and upper threshold, finally, non maximum suppression is applied to thin the edge. The size of sobel filter is set by input filter_size.
+* Description: Find edge by first applying sobel filter. The size of sobel filter is set by input value "filter_size". Then threshold with "lower_threshold" and "upper threshold", finally, non maximum suppression is applied to thin the edge. 
+* Reference: https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html
 
 **12. Gabor filter <main.exe image_name 12 filter_size sigma theta lambd gamma psi>**<br />
+* Description: Extract various image features with a kernal from Gaussian function times sinusoidal function.
+* Reference: https://cvtuts.wordpress.com/2014/04/27/gabor-filters-a-practical-overview/
 
 **13. Median filter <main.exe image_name 13 filter_size>**<br />
+* Description: Find median value from all value inside filter with size "filter_size".
 
 **14. Gaussian blur filter <main.exe image_name 14 filter_size sigma>**<br />
+* Description: Blur an image by convoluting a Gaussian filter with size "filter_size" and standard deviation "sigma".
 
 **15. Local contrast enhancement <main.exe image_name 15 filter_size>**<br />
+* Description: Enhance an image contrast by calculating ratio between center gray level and mean gray level in filter with filter size "filter_size".
+* Reference: *KAO, Wen-Chung; HSU, Ming-Chai; YANG, Yueh-Yiing. Local contrast enhancement and adaptive feature extraction for illumination-invariant face recognition. Pattern Recognition, 2010*
 
 **16. Local binary patterns <main.exe image_name 16>**<br />
+* Description: Extract local image features using 3 times 3 LBP filter, which compare gray level of center pixel to gray level of neighbor pixel.
+* Reference:" Ojala, T., Pietikainen, M., & Maenpaa, T. (2002). Multiresolution gray-scale and rotation invariant texture classification with local binary patterns. IEEE Transactions on pattern analysis and machine intelligence, 24(7), 971-987.*
 
 **17. Difference of Gaussian <main.exe image_name 17 filter_size sigma1 sigma2>**<br />
+* Description: Extract image features as a band-pass filter by subtacting images convoluted with Gaussian filter with different standard deviation. The size of Gaussian filter is "filter size", "sigma1" and "sigma2" are standard deviation of two Gaussian filter.
+* Reference: https://en.wikipedia.org/wiki/Difference_of_Gaussians
 
 **18. Discrete Fourier transform <main.exe image_name 18>**<br />
+* Description: Transform image to Frequency domain using discrete Fourier transform.
+* Reference: https://docs.opencv.org/2.4/doc/tutorials/core/discrete_fourier_transform/discrete_fourier_transform.html
 
 **19. Histogram equalization <main.exe image_name 19>**<br />
+* Description: Improve contrast of an image by remapping gray level histogram to cumulative distribution function.
+* Reference: https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/histogram_equalization/histogram_equalization.html
 
 **20. Image resize <main.exe image_name 20 new_width new_height>**<br />
+* Description: Resize input image to new size with resolution(new_width, new_height).
