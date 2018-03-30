@@ -58,8 +58,10 @@ This program is intended to people who need to test consecutive image processing
 
 ## Functions description
 **1. Show gray image <main.exe image_name 1>**<br />
+* Description: Show gray image and save as output.png in main.exe folder.
 
 **2. Show color image <main.exe image_name 2>** <br />  
+* Description: Show color image and save as output.png in main.exe folder.
 
 **3. Otsu's thresholding <main.exe image_name 3>**  
 * Description: Automatically find optimal thresholding value to binarize an image.  
@@ -78,13 +80,15 @@ This program is intended to people who need to test consecutive image processing
 * Reference: *X. Xu, S. Xu, L. Jin, and E. Song, “Characteristic analysis of Otsu threshold and its applications,” Pattern Recognition Letters, vol. 32, no. 7, pp. 956–961, 2011.*<br />
 
 **7. Binary thresholding <main.exe image_name 7 threshold_value>** <br />  
-* Description: Binarize an image with indicated threshold_value.  
+* Description: Binarize an image with input threshold value "threshold_value".  
 
 **8. Statistical process control(SPC) thresholding <main.exe image_name 8 control_factor>** <br />  
-* Description: Binarize an image with a range of gray level away from mean gray level, the range is controlled by input control_factor, control_factor usually is between 1 to 5.
+* Description: Binarize an image with a range of gray level away from mean gray level, the range is controlled by input control factor value "control_factor".
+* Reference: *D.-M. Tsai and C.-Y. Hsieh, “Automated surface inspection for directional textures,” Image and Vision computing, vol. 18, no. 1, pp. 49–62, 1999.*<br />  
 
 **9. Sobel filter <main.exe image_name 9 filter_size>**<br />
-* Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
+* Description: Calculate approximations of the 1^st derivatives of input image, the filter size is set by input filter_size.
+* Reference: https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html
 
 **10. Laplacian filter <main.exe image_name 10 filter_size>**<br />
 * Description: Calculate approximations of the derivatives of input image, the filter size is set by input filter_size.
